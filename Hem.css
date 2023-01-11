@@ -6,6 +6,8 @@ body{
 header{
     height: 15%;
     background-image: url(sky.jpeg);
+    border-bottom: solid;
+    border-width: 3px;
 }
 
 h1{
@@ -19,18 +21,19 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-    color: rgb(255, 0, 0);
+    background-color: rgb(162, 160, 160);
 }
 
 li a {
     display: block;
-    color: rgb(255, 0, 0);
+    color: rgb(217, 12, 159);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
+}
+
+.navbar{
+font-family: 'Times New Roman', Times, serif;
+color: blueviolet;
 }
