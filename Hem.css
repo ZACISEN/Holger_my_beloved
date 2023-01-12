@@ -31,9 +31,9 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     float: left;
+    font-family: fantasy;
 }
 
-.navbar{
-font-family: 'Times New Roman', Times, serif;
-color: blueviolet;
+li a:hover{
+    color: aqua;
 }
