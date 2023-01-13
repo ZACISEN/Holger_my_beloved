@@ -24,6 +24,7 @@ ul {
     background-color: rgb(162, 160, 160);
 }
 
+
 li a {
     display: block;
     color: rgb(217, 12, 159);
@@ -36,4 +37,26 @@ li a {
 
 li a:hover{
     color: aqua;
+}
+
+footer{
+    position: relative;
+    bottom:0;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 1400px;
+    border: solid;
+    border-color: black;
+}
+
+.fa-youtube{
+    color: rgb(0, 255, 81);
+}
+
+.fa-instagram{
+    color: linear-gradient(rgb(0, 0, 0), violet,blue,black);;
+    background-image: linear-gradient(black, violet,blue,black);;
 }
