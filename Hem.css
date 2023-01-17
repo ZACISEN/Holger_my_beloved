@@ -1,29 +1,36 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 header{
-    height: 15%;
-    background-image: url(sky.jpeg);
-    border-bottom: solid;
-    border-width: 3px;
+    padding-top: 5%;
+    height: 20%;
+    background-image: url(blue-sky-1640502.jpg)
+       
 }
+
 
 h1{
     text-align: center;
-    padding-top: 1.5%;
     font-size: 50px;
+
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
     overflow: hidden;
     background-color: rgb(162, 160, 160);
+
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 li a {
     display: block;
@@ -36,27 +43,48 @@ li a {
 }
 
 li a:hover{
-    color: aqua;
+    background-color:whitesmoke;
 }
 
 footer{
     position: relative;
     bottom:0;
     height: 20vh;
-    width: 100%;
+    width: 99.7%;
     text-align: center;
-    background-color: red;
+    background-color: grey;
     color: white;
     margin-top: 1400px;
     border: solid;
     border-color: black;
 }
 
+.fa-twitter:hover{
+    color:rgb(0, 191, 255);
+}
+
+.fa-youtube:hover{
+    color:red
+}
+
+.fa-instagram:hover{
+    color:orchid
+}
+.fa-facebook:hover{
+    color: #4267B2 
+}
 .fa-youtube{
-    color: rgb(0, 255, 81);
+    color:white
 }
 
 .fa-instagram{
-    color: linear-gradient(rgb(0, 0, 0), violet,blue,black);;
-    background-image: linear-gradient(black, violet,blue,black);;
+    color:white
+}
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-facebook{
+    color: white;
 }
