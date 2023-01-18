@@ -52,12 +52,12 @@
     footer{
         position: relative;
         bottom:0;
+        margin-top: 1000px;
         height: 20vh;
         width: 99.7%;
         text-align: center;
         background-color: grey;
         color: white;
-        margin-top: 1000px;
         border: solid;
         border-color: black;
     }
@@ -119,7 +119,7 @@
         margin-top: 1%;
         width: 30%;
         height: 52.5%; 
-        opacity: 0.9;
+        opacity: 0.8;
     }
 
     .bildmedlänk:hover{
@@ -129,13 +129,36 @@
     .fa-jet-fighter{
         -ms-flex-item-align: center;
         position: relative;
-        animation: mymove 5s infinite;
+        animation: mymove 3s infinite;
         color: white;
     }
 
     @keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
+    from {left: 0px;}
+    to {left: 200px;}
+    }
+
+    .create-account-form{
+        background-color: rgb(207, 207, 207);
+        text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        color: darkorange;
+        position: relative;
+        left: 35vw;
+        width: 30vw;
+    }
+
+    .log-in-form{
+        background-color: rgb(207, 207, 207);
+        width: 20vw; 
+        height: 30vh;
+        position: relative;
+        left: 40vw;
+        text-align: center;
+        color: darkorange;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 }
 
@@ -192,14 +215,13 @@
     }
 
     footer{
-        position: relative;
+        position: absolute;
         bottom:0;
         height: 20vh;
         width: 99.7%;
         text-align: center;
         background-color: grey;
         color: white;
-        margin-top: 1000px;
         border: solid;
         border-color: black;
     }
@@ -246,7 +268,6 @@
 
     }
 
-
     #bild{
         float: left;
         margin-left: 2.5%;
@@ -261,7 +282,7 @@
         margin-top: 1%;
         width: 30%;
         height: 30%; 
-        opacity: 0.9;
+        opacity: 0.8;
     }
 
     .bildmedlänk:hover{
@@ -276,8 +297,31 @@
     }
 
     @keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
+    from {left: 0px;}
+    to {left: 200px;}
+    }
+
+    .create-account-form{
+        background-color: rgb(207, 207, 207);
+        text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        color: darkorange;
+        position: relative;
+        left: 35vw;
+        width: 30vw;
+    }
+
+    .log-in-form{
+        background-color: rgb(207, 207, 207);
+        width: 20vw; 
+        height: 30vh;
+        position: relative;
+        left: 40vw;
+        text-align: center;
+        color: darkorange;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 }
 
