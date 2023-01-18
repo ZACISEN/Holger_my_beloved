@@ -1,90 +1,283 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: black;
+
+@media screen and (min-width:992px){
+    
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+
+    header{
+        padding-top: 5%;
+        height: 20%;
+        background-image: url(bilder/blue-sky-1640502.jpg)
+        
+    }
+
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 0;
+        overflow: hidden;
+        background-color: rgb(162, 160, 160);
+
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    li a {
+        display: block;
+        color: rgb(217, 12, 159);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+        font-family: fantasy;
+    }
+
+    li a:hover{
+        background-color:whitesmoke;
+    }
+
+    footer{
+        position: relative;
+        bottom:0;
+        height: 20vh;
+        width: 99.7%;
+        text-align: center;
+        background-color: grey;
+        color: white;
+        margin-top: 1000px;
+        border: solid;
+        border-color: black;
+    }
+
+    .fa-twitter:hover{
+        color:rgb(0, 191, 255);
+    }
+
+    .fa-youtube:hover{
+        color:red
+    }
+
+    .fa-instagram:hover{
+        color:orchid
+    }
+    .fa-facebook:hover{
+        color: #4267B2 
+    }
+    .fa-youtube{
+        color:white
+    }
+
+    .fa-instagram{
+        color:white
+    }
+
+    .fa-twitter{
+        color: white;
+    }
+
+    .fa-facebook{
+        color: white;
+    }
+
+    .box{
+        width: 30%;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        color: white;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: green;
+        float: left;
+
+    }
+
+
+    #bild{
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 1%;
+        width: 30%;
+        height: 52.5%; 
+    }
+
+    .bildmedlänk{
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 1%;
+        width: 30%;
+        height: 52.5%; 
+        opacity: 0.9;
+    }
+
+    .bildmedlänk:hover{
+        opacity: 1;
+    }
+
+    .fa-jet-fighter{
+        -ms-flex-item-align: center;
+        position: relative;
+        animation: mymove 5s infinite;
+        color: white;
+    }
+
+    @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+    }
 }
 
-header{
-    padding-top: 5%;
-    height: 20%;
-    background-image: url(blue-sky-1640502.jpg)
-       
-}
 
 
-h1{
-    text-align: center;
-    font-size: 50px;
+@media screen and (min-width:375px){
+    
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
 
+    header{
+        padding-top: 5%;
+        height: 20%;
+        background-image: url(bilder/blue-sky-1640502.jpg)
+        
+    }
+
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 0;
+        overflow: hidden;
+        background-color: rgb(162, 160, 160);
+
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    li a {
+        display: block;
+        color: rgb(217, 12, 159);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+        font-family: fantasy;
+    }
+
+    li a:hover{
+        background-color:whitesmoke;
+    }
+
+    footer{
+        position: relative;
+        bottom:0;
+        height: 20vh;
+        width: 99.7%;
+        text-align: center;
+        background-color: grey;
+        color: white;
+        margin-top: 1000px;
+        border: solid;
+        border-color: black;
+    }
+
+    .fa-twitter:hover{
+        color:rgb(0, 191, 255);
+    }
+
+    .fa-youtube:hover{
+        color:red
+    }
+
+    .fa-instagram:hover{
+        color:orchid
+    }
+    .fa-facebook:hover{
+        color: #4267B2 
+    }
+    .fa-youtube{
+        color:white
+    }
+
+    .fa-instagram{
+        color:white
+    }
+
+    .fa-twitter{
+        color: white;
+    }
+
+    .fa-facebook{
+        color: white;
+    }
+
+    .box{
+        width: 30%;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        color: white;
+        border-radius: 15px;
+        border-style: solid;
+        border-color: green;
+        float: left;
+
+    }
+
+
+    #bild{
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 1%;
+        width: 30%;
+        height: 30%; 
+    }
+
+    .bildmedlänk{
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 1%;
+        width: 30%;
+        height: 30%; 
+        opacity: 0.9;
+    }
+
+    .bildmedlänk:hover{
+        opacity: 1;
+    }
+
+    .fa-jet-fighter{
+        -ms-flex-item-align: center;
+        position: relative;
+        animation: mymove 5s infinite;
+        color: white;
+    }
+
+    @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+    }
 }
 
-ul {
-    list-style-type: none;
-    margin-top: 0;
-    overflow: hidden;
-    background-color: rgb(162, 160, 160);
-
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li a {
-    display: block;
-    color: rgb(217, 12, 159);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-    font-family: fantasy;
-}
-
-li a:hover{
-    background-color:whitesmoke;
-}
-
-footer{
-    position: relative;
-    bottom:0;
-    height: 20vh;
-    width: 99.7%;
-    text-align: center;
-    background-color: grey;
-    color: white;
-    margin-top: 1400px;
-    border: solid;
-    border-color: black;
-}
-
-.fa-twitter:hover{
-    color:rgb(0, 191, 255);
-}
-
-.fa-youtube:hover{
-    color:red
-}
-
-.fa-instagram:hover{
-    color:orchid
-}
-.fa-facebook:hover{
-    color: #4267B2 
-}
-.fa-youtube{
-    color:white
-}
-
-.fa-instagram{
-    color:white
-}
-
-.fa-twitter{
-    color: white;
-}
-
-.fa-facebook{
-    color: white;
-}
